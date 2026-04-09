@@ -16,7 +16,6 @@ public class SpringBootGithubActionsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootGithubActionsApplication.class, args);
-
 	}
 
 }
