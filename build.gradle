@@ -7,6 +7,10 @@ plugins {
 group = 'com.jeevankuimar'
 version = '0.0.1-SNAPSHOT'
 
+bootJar {
+	archiveFileName = 'spring-boot-github-actions-image.jar'
+}
+
 java {
 	toolchain {
 		languageVersion = JavaLanguageVersion.of(21)
